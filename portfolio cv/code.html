@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="presentation">
+            <img src="Image.jpg" alt="Votre Nom" class="profile-photo">
+            <h1>Aro Florian Rasoavinandro</h1>
+            <p class="title">BTS SIO (Services Informatique aux Organisations)</p>
+            <p class="contact-info">
+                <span>Email : <a href="mailto:florianrasoa6@gmail.com">florianrasoa6@gmail.com</a></span> | 
+                <span>Téléphone : <a href="tel:07 68 61 36 59">07 68 61 36 59</a></span> |
+                <span>Adresse : 11 avenue des Contamines, Saint Julien en Genevois, France</span>
+            </p>
+            <nav>
+                <a href="#bio">À Propos</a>
+                <a href="#education">Formation</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#experience">Expériences</a>
+                <a href="#hobbies">Hobbies</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Section Bio -->
+            <section id="bio">
+                <h2><strong>À Propos de Moi</strong></h2>
+                <p><strong>Je m'appelle Aro Florian Rasoavinandro, je suis actuellement en première année de BTS SIO (Services informatique aux organisations). J'ai 19 ans, je suis passionné par l'informatique, j'aime le sport, et je suis très impliqué dans mes projets.</strong></p>
+            </section>
+
+            <!-- Section Formation -->
+            <section id="education">
+                <h2>Formation</h2>
+                <ul>
+                    <li>
+                        <h3><strong>Obtention du Baccalauréat Professionnel Option B SN ARED (Audiovisuel Réseau et Équipement Domotique)</strong></h3>
+                        <p><strong>Lycée Saint Vincent de Paul | Année 2023-2024</strong></p>
+                        <p><strong>ASSR2 | 2020</strong></p>
+                        <p><strong>Brevet des collèges | Année 2019-2020</strong></p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Section Certifications -->
+            <section id="certifications">
+                <h2><strong>Certifications</strong></h2>
+                <ul>
+                    <li>
+                        <h3>Certification PIX</h3>
+                        <p><strong>Développement en jeux vidéo</strong> | Année 2022-2023</p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Section Expériences Professionnelles -->
+            <section id="experience">
+                <h2>Expériences Professionnelles</h2>
+                <ul>
+                    <li>
+                        <h3>Stages réalisés</h3>
+                        <p>2 stages de terminale ARED en réseau informatique à l'hôpital d'Annecy et Saint Julien en Genevois | Année 2023-2024</p>
+                        <p>Stage de première ARED en domotique à l'hôpital de Saint Julien en Genevois | Année 2022-2023</p>
+                        <p>Stage en audiovisuel et design 3D au Service Jeunesse (Etage) à Saint Julien en Genevois | Année 2022-2023</p>
+                        <p>Stage en seconde MTNE (Métiers des transitions numériques et énergétiques) en électricité et réseau à l'hôpital de Saint Julien en Genevois | Année 2021-2022</p>
+                        <p>Stage en vente et réparation de téléphones chez JET7MOBILE à Saint Julien en Genevois | Année 2021-2022</p>
+                        <p>Stage de 3ème en vente à Carrefour à Saint Julien en Genevois | Année 2019-2020</p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Section Hobbies et Centres d'Intérêt -->
+            <section id="hobbies">
+                <h2>Hobbies & Centres d'Intérêt</h2>
+                <p>Football en club au Stade de Perly en Suisse</p>
+                <p>Guitare</p>
+                <p>Salle de sport à ON AIR à Annecy (musculation et cardio-training)</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot">
+            <p>&copy; 2023 Aro Florian Rasoavinandro. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/votreprofil" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/votreprofil" target="_blank">GitHub</a> |
+                <a href="https://twitter.com/votreprofil" target="_blank">Twitter</a>
+            </div>
+            <!-- Bouton pour télécharger le CV -->
+            <a href="cv florian sio1.pdf" class="btn-download" download>Télécharger mon CV</a>
+        </div>
+    </footer>
+
+    <!-- Styles pour le bouton -->
+    <style>
+.container{
+    background-image: url(img/4247.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+    .container p, h3{
+color: #007BFF;
+    }
+        
+        .btn-download {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #007BFF; /* Bleu vif */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-download:hover {
+            background-color: #0056b3; /* Bleu plus foncé au survol */
+        }
+    </style>
+
+</body>
+</html>
